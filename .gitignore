@@ -194,4 +194,11 @@ cython_debug/
 .cursorindexingignore
 
 
-config.py
+config/*
+
+# Playwright
+node_modules/
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
